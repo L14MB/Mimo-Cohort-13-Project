@@ -4,12 +4,36 @@
     box-sizing: border-box;
 }
 
+/* start code with mobile UI */
+nav,
+footer {
+    background-color: #C4C4C4;
+    height: 75px;
+}
+
+.header,
+.footer {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
 
 
 
 
 /* small tablets */
-@media (min-width:481px) {}
+@media (min-width:481px) {
+    img {}
+
+}
 
 
 /* laptops, larger tablets */
