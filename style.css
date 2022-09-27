@@ -4,26 +4,83 @@
     box-sizing: border-box;
 }
 
-/* start code with mobile UI */
-nav,
-footer {
-    background-color: #C4C4C4;
-    height: 75px;
+.background {
+    background-color: blue;
+    width: 500px;
+    height: 700px;
 }
 
-.header,
-.footer {
-    font-size: 45px;
+.gameboy {
+    background-color: goldenrod;
+    width: 300px;
+    height: 500px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-img {
-    height: 100%;
-    width: 100%;
+.topbuttons {
+    background-color: bisque;
+    width: 300px;
+    height: 30px;
 }
 
+.screen {
+    background-color: darkgreen;
+    width: 270px;
+    height: 170px;
+}
+
+.display {
+    background-color: greenyellow;
+    width: 170px;
+    height: 150px;
+    margin: 10px 50px;
+}
+
+.button-container1 {
+    background-color: red;
+    width: 300px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.arrowkeys {
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+
+.redbuttons {
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+}
+
+.button-container2 {
+    background-color: grey;
+    width: 300px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-button {
+    background-color: lavender;
+    width: 50px;
+    height: 20px;
+}
+
+.right-button {
+    background-color: firebrick;
+    width: 50px;
+    height: 20px;
+}
 
 
 
